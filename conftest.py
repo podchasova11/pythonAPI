@@ -23,10 +23,10 @@ def connect_data_base(self):
     return connection
 
 
-@pytest.fixture()
-def generate_data_way_2(request):
-
-    login = f"autotest_{time.time()}@ya.ru"
-    password = "123"
-    request.cls.login = login
-    request.cls.password = password
+# @pytest.fixture()
+# def generate_data_way_2(request):
+#
+#     login = f"autotest_{time.time()}@ya.ru"
+#     password = "123"
+#     request.cls.login = login
+#     request.cls.password = password
