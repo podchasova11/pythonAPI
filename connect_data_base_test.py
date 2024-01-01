@@ -21,7 +21,7 @@ def connect_database2():
     return connect2
 
 
-cursor2 = connect_database2().cursor()
-cursor2.execute("SELECT * FROM employees")
-print(cursor2.fetchall())
-connect_database2().close()
+# cursor2 = connect_database2().cursor()
+# cursor2.execute("SELECT * FROM employees")
+# print(cursor2.fetchall())
+# connect_database2().close()
